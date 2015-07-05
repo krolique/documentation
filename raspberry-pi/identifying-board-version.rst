@@ -1,10 +1,5 @@
-Raspberry PI
-============
-
-
-Getting Raspberry Pi info
---------------------------
-
+Identifying board version
+=========================
 Identifying the board version is easy by inspecting the output from
 `/proc/cpuinfo` and matching the 'Revision' field value to the table below
 
@@ -52,14 +47,6 @@ Example output from 'cpuinfo'::
     Revision    : 000e
     Serial      : 00000000528e1136
 
-
-   
-
-
-Adding Users
-------------
-
-    The best way to add a user is to execute the perl script  'adduser'
 
 
 
