@@ -1,6 +1,7 @@
 Managing Users
 ==============
-The first step would be to remove the `pi` user account from the system.
+You should always remove the pi user from the system and create a new user
+with a unique name on the box.
 
 1.  Create a new user account to use::
 
@@ -18,5 +19,3 @@ The first step would be to remove the `pi` user account from the system.
 
     >> sudo deluser pi
     >> sudo rm -rf /home/pi
-
-

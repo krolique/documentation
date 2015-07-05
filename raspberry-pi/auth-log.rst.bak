@@ -1,6 +1,6 @@
 Inspecting Auth.log
 ===================
-Perhaps one of the useful areas to look into whose connecting to your machine
+Perhaps one of the useful areas to look into whos connecting to your machine
 via SSH is the `auth.log` found in `/var/log/` (granted this setup may not be
 the same for all the UNIX/Linux distributions)
 

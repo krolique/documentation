@@ -22,7 +22,7 @@ being qualified from 0°C to 70°C, while the AP is qualified from -40°C to 85�
 You may well find that the board will work outside those temperatures, but 
 we’re not qualifying the board itself to these extremes. 
 
-You can get the CPU temperatur from the raspberry pi by executing the following
+You can get the CPU temperature from the raspberry pi by executing the following
 shell command::
 
     >> sudo /opt/vc/bin/vcgencmd measure_temp
