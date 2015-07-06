@@ -34,6 +34,6 @@ can be achieved by issuing the following command::
 Block most frequent offenders
 -----------------------------
 Block frequent offenders is easy with iptables. The following command block
-a single or a range of IPs (permanently)
+a single or a range of IPs (permanently)::
 
     >> sudo /sbin/iptables -I INPUT -s {IP/IP RANGE} -j DROP
