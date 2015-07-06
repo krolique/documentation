@@ -4,25 +4,36 @@ Perhaps one of the useful areas to look into whose connecting to your machine
 via SSH is the `auth.log` found in `/var/log/` (granted this setup may not be
 the same for all the UNIX/Linux distributions)
 
+Install Fail2Ban
+----------------
+The simplest way to slow down ssh login attempts is to install a package called
+`Fail2Ban` which is a simple python script that (among other things) blocks
+users. Install the package by issuing the following command::
+
+    >> sudo apt-get install fail2ban
+
 
 Finding Failures
 ----------------
-You can cat/tail/less/more or whatever command you prefer to inspect the auth
-log for failures. The following line will grep (and granted this isn't the
-best reg-ex in the world) for most of the failed password attempts that the
-SSH daemon encounters::
+The following line will grep (and granted this isn't the best reg-ex in the
+world) for most of the failed password attempts that the SSHD agent 
+encounters::
 
     >> sudo cat /var/log/auth.log | grep -i sshd.\*failed
 
 
 Finding Top Offenders
 ---------------------
-Again you may chose to do which ever utility to parse the log file (in this
-example I've used cat) but the main goal is to parse the whole log, extract
-IP addresses of failed attempts and sort them by their frequencies::
+You may find it useful to find the number of failed ssh attempt by IP. This
+can be achieved by issuing the following command::
 
     >> sudo cat /var/log/auth.log | grep -i sshd.\*failed | awk '{print $13}'
         | sort -n |  uniq -c | sort -n
 
 
->> sudo /sbin/iptables -I INPUT -s {IP/IP RANGE} -j DROP
+Block most frequent offenders
+-----------------------------
+Block frequent offenders is easy with iptables. The following command block
+a single or a range of IPs (permanently)
+
+    >> sudo /sbin/iptables -I INPUT -s {IP/IP RANGE} -j DROP

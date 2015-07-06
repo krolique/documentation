@@ -51,7 +51,8 @@ Example output from 'cpuinfo'::
 
 Layouts
 -------
-Board layouts
+Additionally one may inspect the raspberry pi itself and see if the layout
+matches any of the following layouts
 
 .. image:: images/raspberry-pi-model-B-rev2.png
    :alt: Model B+ (Rev 2)
