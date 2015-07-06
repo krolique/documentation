@@ -49,6 +49,14 @@ Example output from 'cpuinfo'::
 
 
 
+Layouts
+-------
+
+
+.. image:: images/paspberry-pi-B+-rev-1.png
+   :alt: Model B+ (Rev 1)
+   :align: right
+
 
 
 
