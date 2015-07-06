@@ -51,11 +51,21 @@ Example output from 'cpuinfo'::
 
 Layouts
 -------
+Board layouts
+
+.. image:: images/raspberry-pi-model-B-rev2.png
+   :alt: Model B+ (Rev 2)
+   :align: right
 
 
 .. image:: images/paspberry-pi-B+-rev-1.png
    :alt: Model B+ (Rev 1)
    :align: right
+
+.. image:: images/raspberry-pi-model-A+-rev1.1.png
+   :alt: Model A+ (Rev 1.1)
+   :align: right
+
 
 
 
