@@ -1,0 +1,9 @@
+1. http://scrumreferencecard.com/scrum-reference-card/
+2. http://www.agilenutshell.com/
+3. http://en.wikipedia.org/wiki/Unix_philosophy
+4. http://www.mountaingoatsoftware.com/blog/how-can-we-get-the-best-estimates-of-story-size
+5. http://en.wikipedia.org/wiki/Timeboxing
+6. https://litemind.com/time-boxing/
+7. http://agilemanifesto.org/principles.html
+8. https://www.youtube.com/watch?v=u6XAPnuFjJc
+9. https://www.youtube.com/watch?v=A3oIiH7BLmg

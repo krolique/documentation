@@ -1,0 +1,82 @@
+
+Behavior-driven development (or BDD, Part of EX (Extreem Programming)
+---------------------------
+
+    This section outlines how to possibly deal with over complicated designs
+    solution exhibited by the development team
+
+BDD practices
+
+
+    1.  Establishing the goals of different stakeholders required for a vision 
+        to be implemented (Goals not features)
+
+    2.  Drawing out features which will achieve those goals using feature
+        injection
+
+            a. Hunt the value.
+            b. Inject the features.
+            c. Spot the examples.
+
+    3.  Involving stakeholders in the implementation process through outside–in
+        software development
+
+    4.  Using examples to describe the behavior of the application, or of units
+        of code
+
+    5.  Automating those examples to provide quick feedback and regression
+        testing
+
+    6.  Using ‘should’ when describing the behavior of software to help clarify
+        responsibility and allow the software’s functionality to be questioned
+
+    7.  Using ‘ensure’ when describing responsibilities of software to
+        differentiate outcomes in the scope of the code in question from
+        side-effects of other elements of code.
+
+    8.  Using mocks to stand-in for collaborating modules of code which have not
+        yet been written
+
+
+SCRUM/Agile Stories (Suggestion)
+
+
+    The stories that are written in SCRUM may 
+
+    1. Title: The story should have a clear, explicit title.
+
+    2. Narrative (We should add this)
+        A short, introductory section that specifies who (which business or
+        project role) is the driver or primary stakeholder of the story (the
+        actor who derives business benefit from the story) which effect the
+        stakeholder wants the story to have what business value the stakeholder
+        will derive from this effect
+
+    2.  Acceptance criteria or scenarios (Our Acceptance should include
+        scenarios)
+
+        a.  description of each specific case of the narrative. Such a scenario
+            has the following structure:
+
+        a.  It starts by specifying the initial condition that is assumed to
+            be true at the beginning of the scenario. This may consist of a
+            single clause, or several.
+
+        b.  It then states which event triggers the start of the scenario.
+
+        c.  Finally, it states the expected outcome, in one or more clauses.
+
+
+
+Feature Injection
+
+
+Sources:
+
+    1.  http://en.wikipedia.org/wiki/Behavior-driven_development
+
+    2.  http://pythonhosted.org/behave/philosophy.html
+
+    3.  http://stackoverflow.com/questions/86308/how-do-you-prevent-over-complicated-solutions-or-designs
+
+    4. http://www.infoq.com/articles/feature-injection-success
