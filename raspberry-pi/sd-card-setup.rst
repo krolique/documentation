@@ -8,8 +8,6 @@ pi using the command line
 
     >> diskutil list
 
-    Sample output::
-
         /dev/disk1
            #:                       TYPE NAME                    SIZE       IDENTIFIER
            0:                  Apple_HFS Macintosh HD           *499.1 GB   disk1
