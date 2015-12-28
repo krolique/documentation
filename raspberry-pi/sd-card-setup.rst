@@ -1,20 +1,21 @@
 SD Card Setup
 =============
+This section deals with writing the .img files to the SD Cards on the raspberry
+pi using the command line
 
 
 1. Find the disk you wish to::
 
     >> diskutil list
 
-Sample output::
+    Sample output::
 
-    /dev/disk1
-       #:                       TYPE NAME                    SIZE       IDENTIFIER
-       0:                  Apple_HFS Macintosh HD           *499.1 GB   disk1
-    /dev/disk2
-       #:                       TYPE NAME                    SIZE       IDENTIFIER
-       0:      GUID_partition_scheme                        *67.1 GB    disk2
-
+        /dev/disk1
+           #:                       TYPE NAME                    SIZE       IDENTIFIER
+           0:                  Apple_HFS Macintosh HD           *499.1 GB   disk1
+        /dev/disk2
+           #:                       TYPE NAME                    SIZE       IDENTIFIER
+           0:      GUID_partition_scheme                        *67.1 GB    disk2
 
 2. Unmount the partition::
 
