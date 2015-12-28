@@ -2,7 +2,7 @@ SD Card Setup
 =============
 
 
-1. Find the disk you wish to 
+1. Find the disk you wish to::
 
     >> diskutil list
 
@@ -29,11 +29,11 @@ SD Card Setup
            4:               FreeBSD Swap                         1.0 MB     disk2s4
 
 
-2. Unmount the partition
+2. Unmount the partition::
 
     >> diskutil unmountDisk /dev/disk{NUMBER FROM STEP 1}
 
 
-3. Write the image to the disk
+3. Write the image to the disk::
 
     >> sudo dd bs=1m if={PATH TO IMG} of=/dev/{NUMBER FROM STEP 1}
