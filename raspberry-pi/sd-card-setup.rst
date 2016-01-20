@@ -4,7 +4,7 @@ This section deals with writing the .img files to the SD Cards on the raspberry
 pi using the command line
 
 
-1. Find the disk you wish to::
+1. Find the disk you wish to use::
 
     >> diskutil list
 
@@ -22,4 +22,4 @@ pi using the command line
 
 3. Write the image to the disk::
 
-    >> sudo dd bs=1m if={PATH TO IMG} of=/dev/{NUMBER FROM STEP 1}
+    >> sudo dd bs=1m if={PATH TO IMG} of=/dev/disk{NUMBER FROM STEP 1}
