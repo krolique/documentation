@@ -42,3 +42,21 @@ the following shell command::
 which should output something like this::
 
     >> temp=55.1'C
+    
+Operating System
+----------------
+You can find out more information about the operating system executing
+the following linux command::
+
+    >> hostnamectl
+
+which should output something like this::
+
+       Static hostname: maya
+             Icon name: computer
+               Chassis: n/a
+            Machine ID: ...
+               Boot ID: ...
+      Operating System: Raspbian GNU/Linux 8 (jessie)
+                Kernel: Linux 4.1.13-v7+
+          Architecture: arm
