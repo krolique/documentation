@@ -127,3 +127,14 @@ Set the name of the notes file::
     set notefile "{bot-name}.notes"
 
 
+Recommended security feature::
+
+    set protect-telnet 1
+
+Require +p flag for all users to join the party line::
+
+    set require-p 1
+
+Prevent the bot from spilling info about itself::
+
+    set stealth-telnets 0
