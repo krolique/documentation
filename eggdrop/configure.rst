@@ -1,5 +1,23 @@
 Configure
 ---------
+The task of configuring your bot is a lengthy task as the eggdrop.conf is over 1100 lines
+long and defines quite a bit of settings that all have effect on your bot. What you will find below
+is a bare minimum set of settings I found I needed to change to be happy with my bot running as a process
+on my machines.
+
+Before you begin you must understand that the conf file contains a few (more like just a couple) of
+termination points (a die() command) that will force you to remove/uncomment these line in the
+config you'll generate. The owner of the project felt that it is IMPORTANT that you find and remove
+these by yourself. This perhaps is a clue as to the dangers of just running a default config. 
+
+The list of settings below is not exclusive neither are they authoritarian. These are merely
+suggestions that you should find useful before forming a strong opinion on what should be set
+or unset.
+
+
+Settings
+--------
+Defines the settings that found are important to change in default config.
 
 
 Set the username under which the `eggdrop` will run as::
